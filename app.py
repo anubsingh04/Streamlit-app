@@ -367,7 +367,7 @@ def extract_think_tags(text):
 st.sidebar.title("API Endpoints")
 page = st.sidebar.radio(
     "Choose an option:",
-    (" General Information", " Identify Yourself", " Relationship Advice", " Configure Chatbot", " Upload Documents")
+    (" General Information", " Identify Yourself", " Relationship Advice", " Configure Chatbot")
 )
 
 # ---------------- 1. General Chat ----------------
