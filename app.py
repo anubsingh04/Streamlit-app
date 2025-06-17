@@ -435,6 +435,7 @@ if page == " General Information":
 # ---------------- 2. Identify Yourself ----------------
 elif page == " Identify Yourself":
     st.title(" Enneagram Type Discovery")
+    st.subheader("Answer the questions to discover your **core type** based on the Enneagram Cards.")
 
     if "session_id" not in st.session_state:
         st.session_state.session_id = str(uuid.uuid4())
